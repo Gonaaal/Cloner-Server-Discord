@@ -10,7 +10,7 @@ Como configurar para clonar un servidor?
 - Espera un poco...
 - ¡Y listo!
 
-#🆘 Ayuda 🆘
+# Contacto 👤
 >Si necesitas ayuda contactame
 - Discord:
 ```
