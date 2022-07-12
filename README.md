@@ -9,6 +9,8 @@ Como configurar para clonar un servidor?
 - Pega el **id** del server que quieras copiar
 - Espera un poco...
 - ¡Y listo!
+# Cómo obtener token de discord?
+> Mirese este [video](https://youtu.be/YEgFvgg7ZPI) que explica como hacerlo
 
 # Contacto 👤
 >Si necesitas ayuda contactame
