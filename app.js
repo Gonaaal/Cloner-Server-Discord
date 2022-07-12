@@ -7,9 +7,9 @@ import input from "input";
 dotenv.config();
 
 const main = async () => {
-  let originServerId = await input.text("Enter server ID to clone");
+  let originServerId = await input.text("Pon el id del server para clonar");
   const createdServerId = await createServer(originServerId);
-  console.log("Created server");
+  console.log("Server Creado");
   const channels = await getChannels(originServerId);
   let parentChannels = channels
     .filter((channel) => channel.type === 4)
@@ -35,7 +35,7 @@ const main = async () => {
           item.permission_overwrites
         );
         if (index === 0) parentId = res.id;
-        console.log(`Created channel ${item.name}`);
+        console.log(`Canal Creado ${item.name}`);
       }
     } else {
       await createChannel(
@@ -45,7 +45,7 @@ const main = async () => {
         group.name,
         group.permission_overwrites
       );
-      console.log(`Created group ${group.name}`);
+      console.log(`Grupo Creado ${group.name}`);
     }
 
     await sleep(2000);
